@@ -1,0 +1,168 @@
+{
+  "name": "LEG Musterquartier (simuliert)",
+  "mode": "LEG",
+  "timezone": "Europe/Zurich",
+  "transformation_required": false,
+  "key": "proportional",
+  "static_fraction": 0.5,
+  "reduction_basis": "regulatory",
+  "members": [
+    {
+      "id": "H01",
+      "name": "Haushalt 01",
+      "role": "consumer",
+      "meter": "M-H01",
+      "share": 0.0615,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H02",
+      "name": "Haushalt 02",
+      "role": "consumer",
+      "meter": "M-H02",
+      "share": 0.0865,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H03",
+      "name": "Haushalt 03",
+      "role": "consumer",
+      "meter": "M-H03",
+      "share": 0.0462,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H04",
+      "name": "Haushalt 04",
+      "role": "consumer",
+      "meter": "M-H04",
+      "share": 0.15,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H05",
+      "name": "Haushalt 05",
+      "role": "consumer",
+      "meter": "M-H05",
+      "share": 0.1,
+      "join": null,
+      "leave": null,
+      "max_kw": 30.0
+    },
+    {
+      "id": "H06",
+      "name": "Haushalt 06",
+      "role": "consumer",
+      "meter": "M-H06",
+      "share": 0.075,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H07",
+      "name": "Haushalt 07",
+      "role": "consumer",
+      "meter": "M-H07",
+      "share": 0.0404,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H08",
+      "name": "Haushalt 08",
+      "role": "consumer",
+      "meter": "M-H08",
+      "share": 0.1327,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H09",
+      "name": "Haushalt 09",
+      "role": "consumer",
+      "meter": "M-H09",
+      "share": 0.0788,
+      "join": null,
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H10",
+      "name": "Haushalt 10",
+      "role": "consumer",
+      "meter": "M-H10",
+      "share": 0.1077,
+      "join": null,
+      "leave": null,
+      "max_kw": 30.0
+    },
+    {
+      "id": "H11",
+      "name": "Haushalt 11",
+      "role": "consumer",
+      "meter": "M-H11",
+      "share": 0.0673,
+      "join": "2026-03-16",
+      "leave": null,
+      "max_kw": 25.0
+    },
+    {
+      "id": "H12",
+      "name": "Haushalt 12",
+      "role": "consumer",
+      "meter": "M-H12",
+      "share": 0.0538,
+      "join": null,
+      "leave": "2026-08-20",
+      "max_kw": 25.0
+    },
+    {
+      "id": "P1",
+      "name": "PV Dach Sued",
+      "role": "producer",
+      "meter": "M-P1",
+      "share": 0.0,
+      "join": null,
+      "leave": null,
+      "max_kw": 33.0
+    },
+    {
+      "id": "P2",
+      "name": "PV Dach Ost-West",
+      "role": "producer",
+      "meter": "M-P2",
+      "share": 0.0,
+      "join": null,
+      "leave": null,
+      "max_kw": 22.0
+    }
+  ],
+  "tariffs": {
+    "source": "ElCom open data 2026, operator id 486, municipality 101, category H4, standard product",
+    "year": 2026,
+    "internal_price_rp": 9.5,
+    "energy_rp": 11.312,
+    "grid_working_rp": 7.5,
+    "grid_non_reducible_rp": 0.0,
+    "levies_rp": 0.16,
+    "grid_surcharge_rp": 2.3,
+    "fixed_chf_per_year": 128.85,
+    "feed_in_rp": 8.0,
+    "admin_fee_chf_per_month": 2.0,
+    "vat_rate_grid": 0.081,
+    "vat_rate_internal": 0.0,
+    "reduction_single_level": 0.4,
+    "reduction_with_transformation": 0.2
+  }
+}

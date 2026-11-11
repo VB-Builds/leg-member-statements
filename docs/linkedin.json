@@ -1,0 +1,13 @@
+{
+  "claim": "Open-source monthly statements for Swiss energy communities where every kWh and Rappen adds up.",
+  "data_label": "simulated meter data | open data: ElCom tariffs 2026 | StromVV Art. 19h",
+  "stats": [
+    ["0 Wh", "allocation error in 35,040 quarter-hours", "green"],
+    ["CHF 5.79", "max yearly bill change across 4 keys", "violet"],
+    ["190 s", "200 members billed for a year, with PDFs", "accent"]
+  ],
+  "limit": "Meter data is simulated; no real utility data exchange yet. Not legal or tax advice.",
+  "alt": "Dark chart: monthly solar production split into energy used in the community and exported, with members' consumption as a line, and bars of how much each household's yearly bill changes across four allocation keys, at most CHF 5.79.",
+  "hashtags": ["#LEG", "#Energiegemeinschaft", "#Solarstrom", "#SmartMetering", "#Energiewende", "#OpenSource"],
+  "post": "Since 1 January 2026, neighbours in Switzerland can share their rooftop solar in a local electricity community. Someone then has to send every member a bill each month, from 15-minute meter data that has gaps, duplicates and two daylight-saving days a year.\n\nI built an open-source tool for that billing step. It reads 15-minute readings per member and per PV plant, cleans them, allocates the solar energy with a proportional, static or hybrid key, applies the 40% grid-fee reduction from the ordinance and ElCom 2026 tariffs, and writes one CSV line and a one-page German PDF statement per member and month, plus producer credit notes and a community summary.\n\nMeasured on a simulated community of 12 households and 2 PV plants for a full year:\n- 0 Wh allocation error in 35,040 quarter-hours, and members' payments match producer credits to the Rappen.\n- The allocation key changed a household's yearly bill by at most CHF 5.79.\n- 200 members billed for a year in 190 s, including 2,412 PDFs.\n\nNot verified: the meter data is simulated, there is no real utility data exchange yet, and it is not legal or tax advice.\n\nIf you run a community: would you pick the allocation key members understand, or the one the grid operator uses?\n\nCode: https://github.com/Usernamepersonperson/leg-member-statements"
+}

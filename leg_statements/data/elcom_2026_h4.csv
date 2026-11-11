@@ -1,0 +1,2 @@
+year,operator_id,bfs_municipality,category,gridusage,gridworkingprice,energy,energyworkingprice,energyfixcost,annualmeteringcost,charge,aidfee,total
+2026,486,101,H4,8.23,7.5,12.112,11.312,36.0,60.0,0.16,2.3,24.136
